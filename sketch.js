@@ -35,6 +35,7 @@ rope5=new Rope(bob5.body,roof.body,40,0);
 function draw() {
   rectMode(CENTER);
   background("orange");
+text("Use Up Arrow Key To Move",300,50);
   roof.display();
   bob1.display();
   bob2.display();
